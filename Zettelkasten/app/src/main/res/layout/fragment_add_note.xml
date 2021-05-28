@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg_edit_note">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="@dimen/card_layout_margin"
+       app:cardCornerRadius="30dp">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <EditText
+
+               android:layout_margin="@dimen/add_content_margin"
+               android:id="@+id/editTextNoteHead"
+               android:layout_width="match_parent"
+               android:textAlignment="center"
+               android:layout_height="48dp"
+               android:background="@color/white"
+               android:hint="head">
+           </EditText>
+
+           <EditText
+               android:layout_below="@id/editTextNoteHead"
+               android:id="@+id/editTextContent"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:ems="20"
+               android:layout_margin="@dimen/add_content_margin"
+               android:isScrollContainer="true"
+               android:background="@color/white"
+               android:gravity="start"
+               android:inputType="textMultiLine"
+               android:scrollbars="vertical" />
+       </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+</LinearLayout>

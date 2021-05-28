@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragments.HomeFragment"
+    android:layout_gravity="center"
+    android:tag="fragment_home">
+
+   <androidx.viewpager.widget.ViewPager
+       android:id="@+id/card_viewPager"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:clipToPadding="false"
+       android:foregroundGravity="center"
+       android:overScrollMode="never">
+   </androidx.viewpager.widget.ViewPager>
+
+   <RelativeLayout
+       android:layout_width="160dp"
+       android:layout_height="160dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="@dimen/fab_marginBottom">
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab_search"
+          android:layout_width="@dimen/fab_size"
+          android:layout_height="@dimen/fab_size"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_margin="@dimen/fab_margin"
+          android:src="@android:drawable/ic_menu_search"/>
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab_add"
+          android:layout_width="@dimen/fab_size"
+          android:layout_height="@dimen/fab_size"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+
+          android:layout_margin="@dimen/fab_margin"
+          android:src="@android:drawable/ic_menu_add"/>
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab_quit"
+          android:layout_width="@dimen/fab_size"
+          android:layout_height="@dimen/fab_size"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_margin="@dimen/fab_margin"
+          android:src="@drawable/abc_vector_test"/>
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/fab_guide"
+          android:layout_width="@dimen/fab_size"
+          android:layout_height="@dimen/fab_size"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+
+          android:layout_margin="@dimen/fab_margin"
+          android:src="@android:drawable/ic_menu_help"/>
+
+   </RelativeLayout>
+
+
+</RelativeLayout>

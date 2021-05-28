@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "986820866367",
+    "firebase_url": "https://basedateaccount-default-rtdb.firebaseio.com",
+    "project_id": "basedateaccount",
+    "storage_bucket": "basedateaccount.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986820866367:android:3fd4926c5d9b1a1d0c638a",
+        "android_client_info": {
+          "package_name": "space.lopstory.yey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986820866367-kpljdms8v3351p4h8ibnkidgo5va00um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBosWspOIBhLKmi-Z81ciKk6VPXVeHUfLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986820866367-kpljdms8v3351p4h8ibnkidgo5va00um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986820866367:android:c98ae5c7971b4bd90c638a",
+        "android_client_info": {
+          "package_name": "space.lopstory.zettelkasten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986820866367-kpljdms8v3351p4h8ibnkidgo5va00um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBosWspOIBhLKmi-Z81ciKk6VPXVeHUfLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986820866367-kpljdms8v3351p4h8ibnkidgo5va00um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

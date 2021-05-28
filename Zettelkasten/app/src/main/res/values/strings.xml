@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Zettelkasten</string>
+
+
+    <!--Authentication -->
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="login">Log in</string>
+    <string name="signUp">Sign up</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <!--Description-->
+    <string-array name="discriptions">
+        <item>Этот термин введён Кристиан Титз. Он означает, что каждая заметка должна содержать только одну идею. Это даёт возможность соединять идеи с точностью лазера.</item>
+        <item>Каждая заметка должна быть автономной, то есть быть самостоятельной и понятной сама по себе. Это позволяет перемещать, перерабатывать, разделять и соединять заметки независимо от их соседей. Это также гарантирует, что заметки остаются полезными, даже если исходный источник информации утерян.</item>
+        <item>Когда вы добавляете заметку, убедитесь, что она соединена с уже существующей заметкой. Избегайте заметок, которые не соединены с другими. Как определял это сам Луман, «каждая заметка — всего лишь элемент, который наследует свои характеристики от сети связей в системе. Заметка, которая не связана с сетью будет потеряна, будет забыта Zettelkasten»</item>
+    </string-array>
+
+    <!--Headings -->
+    <string-array name="headers">
+        <item>Принцип атомарности</item>
+        <item>Принцип автономии</item>
+        <item>Всегда соединяйте заметки</item>
+    </string-array>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
